@@ -13,12 +13,12 @@ export class Game_Scene extends Phaser.Scene{
     }
 
     preload(){
-        this.load.image('background-image','/assets/images/background.png');
-        this.load.image('wheel1-image','/assets/images/blankwheel.png');
-        this.load.image('wheel2-image','/assets/images/blankwheel2.png');
-        this.load.image('spin-image','/assets/images/spin_button.png');
-        this.load.image('stop-image','/assets/images/stop_button.png');
-        this.load.image('arrow-image','/assets/images/arrow.png');
+        this.load.image('background-image','assets/images/background.png');
+        this.load.image('wheel1-image','assets/images/blankwheel.png');
+        this.load.image('wheel2-image','assets/images/blankwheel2.png');
+        this.load.image('spin-image','assets/images/spin_button.png');
+        this.load.image('stop-image','assets/images/stop_button.png');
+        this.load.image('arrow-image','assets/images/arrow.png');
     }
 
     create(){
