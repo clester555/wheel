@@ -140,14 +140,34 @@ export class Sentence_List {
         this.sentences[q].pinyin = "Mǔ jī xiàdàn shí māmā gǔzhǎng";
 
         q+=1;this.sentences[q] = new Sentence();
-        this.sentences[q].english = "Mother will never cry again, he thought.";
-        this.sentences[q].chinese = "母鸡下蛋时妈妈鼓掌";
-        this.sentences[q].pinyin = "Mǔ jī xiàdàn shí māmā gǔzhǎng";
+        this.sentences[q].english = "Mother will never cry again, he thought";
+        this.sentences[q].chinese = "他想妈妈再也不会哭了";
+        this.sentences[q].pinyin = "Tā xiǎng māmā zài yě bù huì kūle";
 
+        q+=1;this.sentences[q] = new Sentence();
+        this.sentences[q].english = "Time passed. Mother and Jack were very happy";
+        this.sentences[q].chinese = "时间一天天过去。妈妈和杰克非常高兴";
+        this.sentences[q].pinyin = "Shíjiān yī tiāntiān guòqù. Māmā hé jiékè fēicháng gāoxìng";
 
+        q+=1;this.sentences[q] = new Sentence();
+        this.sentences[q].english = "They had each other";
+        this.sentences[q].chinese = "他们彼此拥有";
+        this.sentences[q].pinyin = "Tāmen bǐcǐ yǒngyǒu";
+
+        q+=1;this.sentences[q] = new Sentence();
+        this.sentences[q].english = "They had plenty of golden eggs";
+        this.sentences[q].chinese = "他们有很多金蛋";
+        this.sentences[q].pinyin = "Tāmen yǒu hěnduō jīn dàn";
         
-
-
+        q+=1;this.sentences[q] = new Sentence();
+        this.sentences[q].english = "after a while, Jack began to worry";
+        this.sentences[q].chinese = "过了一会儿，杰克开始担心";
+        this.sentences[q].pinyin = "Guòle yīhuǐ'er, jiékè kāishǐ dānxīn";
+        
+        q+=1;this.sentences[q] = new Sentence();
+        this.sentences[q].english = "after a while, Jack began to worry";
+        this.sentences[q].chinese = "过了一会儿，杰克开始担心";
+        this.sentences[q].pinyin = "Guòle yīhuǐ'er, jiékè kāishǐ dānxīn";
 
 }
 
